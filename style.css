@@ -1,57 +1,77 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  background-color: wheat;
-}
-
-header {
-  background-color: wheat;
-  color: black;
-  text-align: center;
-  padding: 10px;
-}
-
-h1 {
   margin: 0;
+  padding: 0;
+  background-color: burlywood; /* Warna background cream */
 }
 
-main {
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-.konten {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.konten img {
-  width: 200px;
+.box {
+  background-color: #fff; /* Warna background kotak putih */
+  padding: 20px;
   margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
 }
 
-.deskripsi {
+.title-box {
+  text-align: center;
+}
+
+.paragraph-box {
   text-align: justify;
-  line-height: 1.5;
-  max-width: 600px; 
-  margin: 0 auto; 
 }
 
-h2 {
-  color: #000080;
-  margin-bottom: 10px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-p {
-  text-indent: 48px;
+.warung-image {
+  display: block;
+  margin: 20px auto; /* Membuat gambar berada di tengah secara horizontal */
+  max-width: 100%; /* Maksimum lebar gambar adalah lebar kotak paragraf */
+  height: auto; /* Menyesuaikan tinggi gambar secara proporsional */
 }
 
-.deskripsi p:first-child {
-  color: #000080; 
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.menu-table th, .menu-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.menu-table th {
+  background-color: #f2f2f2;
+}
+
+.menu-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pesan-button {
+  display: block;
+  margin: 20px auto; /* Membuat tombol berada di tengah */
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Warna background tombol hijau */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pesan-button:hover {
+  background-color: #45a049; /* Warna background tombol hijau saat dihover */
 }

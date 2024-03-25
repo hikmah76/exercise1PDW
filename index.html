@@ -1,23 +1,66 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toko Sepatu</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko sepatu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Toko sepatu</h1>
-  </header>
-  <main>
-    <section class="konten">
-      <img src="th.jpg" alt="Logo UMY">
-      <div class="deskripsi">
-        <p>Deskripsi:</p>
-        <p>UMY adalah salah satu perguruan tinggi swasta di Yogyakarta, Indonesia yang beralamat di Tirtonirmolo, Kecamatan Kasiahan, Kabupaten Bantul, Daerah Istimewa Yogyakarta. Universitas Muhammadiyah Yogyakarta juga telah terakreditasi "unggul" Berdasarkan Keputusan BAN-PT No. 793/SK/BAN-PT/AK/ISK/PT/XIII/2021.</p>
-      </div>
-    </section>
-  </main>
+  <div class="container">
+    <div class="box title-box">
+      <h2>Selamat Toko Sepatu </h2>
+    </div>
+    <div class="box paragraph-box">
+      <p>Toko sepatu adalah tempat di mana pelanggan dapat menemukan berbagai macam sepatu untuk kebutuhan mereka. Dari sepatu olahraga hingga sepatu formal, toko ini menyediakan beragam pilihan untuk pria, wanita, dan anak-anak. </p>
+      <p>Selain itu, toko sepatu juga seringkali menyediakan aksesori sepatu seperti kaos kaki, alas kaki, dan produk perawatan sepatu:</p>
+      <ul>
+        <li>- Flat sous</li>
+        <li>- Sneakers</li>
+        <li>- Sepatu Lari</li>
+        <li>- Sepatu Boots</li>
+        <li>- Sepatu Kasual</li>
+      </ul>
+      <p>Anda dapat memesan salah satu dari tersebut dengan mengklik tombol "Pesan Sekarang" di bawah ini.</p>
+    </div>
+    <table class="menu-table">
+      <thead>
+        <tr>
+          <th>Menu</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Flat sous</td>
+          <td>Rp 255.000</td>
+        </tr>
+        <tr>
+          <td>Sneakers</td>
+          <td>Rp 550.000</td>
+        </tr>
+        <tr>
+          <td>Sepatu Lari</td>
+          <td>Rp 300.000</td>
+        </tr>
+        <tr>
+          <td>Sepatu Boots</td>
+          <td>Rp 900.000</td>
+        </tr>
+        <tr>
+          <td>Sepatu Kasual</td>
+          <td>Rp 800.000</td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="sepatu.jpg" alt="Gambar sepatu" class="sepatu-image">
+    <button class="pesan-button" onclick="showAlert()">Pesan Sekarang</button>
+  </div>
+
+  <script>
+    function showAlert() {
+      alert("Hubungi 08123456569 untuk pemesanan!");
+    }
+  </script>
 </body>
 </html>
