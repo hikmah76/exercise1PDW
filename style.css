@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: wheat;
+}
+
+header {
+  background-color: wheat;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.konten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.konten img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.deskripsi {
+  text-align: justify;
+  line-height: 1.5;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+h2 {
+  color: #000080;
+  margin-bottom: 10px;
+}
+
+p {
+  text-indent: 48px;
+}
+
+.deskripsi p:first-child {
+  color: #000080; 
+}
